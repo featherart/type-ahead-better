@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contained {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.counter-container {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-container {
+  display: flex;
+  padding: 50px 0;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: baseline;
+  width: 100%;
+}
+
+.search-button {
+  padding: 25px;
+  margin: 20px;
+  background: #333;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  border: none;
+  width: 200px;
+}
+
+.loading-spinner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-results {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  background: #333;
+  color: white;
+  width: 400px;
+  font-size: 1rem;
+  border-radius: 3px;
+  font-weight: 400;
+  font-variant: small-caps;
+}
+
+.search-results img {
+  width: 400px;
+}
+
+a {
+  text-decoration: none;
+  color: paleturquoise;
+}
+
+a:hover {
+  color: darkturquoise;
+}
+
+.search-result {
+  padding-top: 15px;
+}
+
+input {
+  height: 30px;
+  width: 300px;
+
+  border-style:solid;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid black;
+  font-size: 1.5rem;
+  outline: transparent;
+}
