@@ -1,9 +1,11 @@
 import React from 'react'
+import './loading.css'
 
 export const Loading = () => (
-  <div className='loading-spinner'>
-    <h1>Loading ...</h1>
-    <img src='swings.gif' alt='loading' />
-  </div>
-
+	<div class='loading-container'>
+		<span class='text'>Loading...</span>
+		<span class='loading'>
+			<span class='center' />
+		</span>
+	</div>
 )

@@ -46,13 +46,6 @@ body {
   width: 200px;
 }
 
-.loading-spinner {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .search-results {
   padding: 25px;
   display: flex;
